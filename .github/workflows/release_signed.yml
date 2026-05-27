@@ -8,6 +8,9 @@ on:
         description: 'Tag name for release (e.g. 0.1.6)'
         required: false
         default: ''
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
